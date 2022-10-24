@@ -18,7 +18,6 @@ export const Sidebar = () => {
       <a
         href="https://1drv.ms/b/s!AsRs4lRB2xg70XRIQPx3Kb4mSVtz?e=B495da"
         className="btn"
-        download
       >
         Visualizar Currículo
       </a>
