@@ -16,7 +16,7 @@ export const Sidebar = () => {
       <SocialMedia />
       <InformationContainer />
       <a
-        href="https://1drv.ms/b/s!AsRs4lRB2xg70XRIQPx3Kb4mSVtz?e=B495da"
+        href="https://drive.google.com/file/d/13bNn021Xij1dUILBBPCYy6B5i5iUrvo8/view?usp=sharing"
         className="btn"
       >
         Visualizar Currículo
