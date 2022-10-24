@@ -1,0 +1,63 @@
+@use "variables"
+
+@mixin reset()
+    *
+        padding: 0
+        margin: 0
+        box-sizing: border-box
+        font-family: variables.$font
+
+    body
+        background-color: variables.$body-bg-color
+
+    ul
+        list-style: none
+
+    a
+        text-decoration: none
+
+    a, svg
+        transition: .5s
+
+@include reset()
+
+@mixin mobile()
+    @media(max-width: 425px)
+        @content
+
+@mixin tablet()
+    @media(max-width: 890px)
+        @content
+
+@mixin devResponsive()
+    @media(max-width: 999px)
+        @content
+
+@mixin centerContent()
+    display: flex
+    justify-content: center
+    align-items: center
+
+@mixin btn()
+    padding: 1rem 1.2rem
+    color: variables.$text-color
+    background: variables.$gradient
+    text-decoration: none
+    border-radius: 3rem
+    transition: .3s
+
+    &:hover
+        transform: scale(1.1)
+
+    @include tablet()
+        align-self: center
+        font-size: 1.5rem
+
+    @include mobile()
+        align-self: center
+
+@mixin gradientBorder()
+    content: ""
+    background: variables.$gradient
+    height: 3px
+    width: 30%

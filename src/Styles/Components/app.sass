@@ -1,0 +1,31 @@
+@use "../variables"
+@use "../mixins"
+
+#portifolio
+    display: flex
+    flex-wrap: wrap
+    padding: 3rem
+    gap: 3rem
+
+    @include mixins.tablet()
+        width: 100%
+        padding: 1rem
+        flex-direction: column
+
+    @include mixins.mobile()
+        padding: 0
+        gap: 1rem
+
+    h1
+        width: 100%
+        font-size: 5rem
+        margin-bottom: 4rem
+        background: variables.$gradient
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+
+        @include mixins.tablet()
+            text-align: center
+
+        @include mixins.mobile()
+            text-align: center
