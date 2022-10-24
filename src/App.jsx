@@ -2,8 +2,8 @@
 import "./Styles/Components/app.sass";
 
 //Components
-import { Sidebar } from "./Components/sidebar";
-import { MainContent } from "./Components/mainContent";
+import { Sidebar } from "./Components/Sidebar";
+import { MainContent } from "./Components/MainContent";
 
 function App() {
   return (

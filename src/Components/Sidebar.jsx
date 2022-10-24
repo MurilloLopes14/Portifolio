@@ -15,12 +15,12 @@ export const Sidebar = () => {
       <p className="title">Desenvolvedor de Sistemas</p>
       <SocialMedia />
       <InformationContainer />
-      <a href="#" className="btn">
+      <a
+        href="https://drive.google.com/file/d/13bNn021Xij1dUILBBPCYy6B5i5iUrvo8/view?usp=sharing"
+        className="btn"
+      >
         Visualizar Currículo
       </a>
-      <p>
-        Por questões de desenvolvimento, esta visualização está desabilitada!
-      </p>
     </aside>
   );
 };
