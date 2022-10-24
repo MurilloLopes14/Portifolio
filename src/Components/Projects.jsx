@@ -1,5 +1,3 @@
-//SASS
-
 export const Projects = () => {
   return (
     <section className="projects_container">

@@ -2,7 +2,7 @@
 import "../Styles/Components/sidebar.sass";
 
 //Components
-import { SocialMedia } from "./socialMedia";
+import { SocialMedia } from "./SocialMedia";
 import { InformationContainer } from "./InformationContainer";
 
 //Utils
