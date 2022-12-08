@@ -10,6 +10,7 @@ import {
   DiReact,
   DiSass,
   DiMysql,
+  DiPython,
 } from "react-icons/di";
 import { SiNestjs, SiTypescript, SiMongodb } from "react-icons/si";
 
@@ -74,6 +75,18 @@ const technologies = [
     name: "MySQL",
     about: "Conhecimento com arquitetura de dados e leitura de tabelas",
     icon: <DiMysql />,
+  },
+  {
+    id: "python",
+    name: "Python",
+    about: "Desenvolvendo o conhecimento na linguagem com boa prática",
+    icon: <DiPython />,
+  },
+  {
+    id: "react-native",
+    name: "React Native",
+    about: "Boa experiência com a bibliotecas mobile",
+    icon: <DiReact />,
   },
 ];
 
